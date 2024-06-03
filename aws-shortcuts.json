@@ -1,0 +1,109 @@
+{
+  "title": "Open AWS Shortcut",
+  "rules": [
+    {
+      "description": "Open AWS with numpad keys",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "keypad_1"
+          },
+          "to": [
+            {
+              "shell_command": "/usr/bin/open -a '/Applications/Google Chrome.app' 'https://ap-northeast-2.console.aws.amazon.com/console/home'"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_2"
+          },
+          "to": [
+            {
+              "shell_command": "/usr/bin/open -a '/Applications/Google Chrome.app' 'https://us-east-1.console.aws.amazon.com/cloudfront/v4/home'"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_3"
+          },
+          "to": [
+            {
+              "shell_command": "/usr/bin/open -a '/Applications/Google Chrome.app' 'https://ap-northeast-2.console.aws.amazon.com/codesuite/codepipeline/pipelines'"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_4"
+          },
+          "to": [
+            {
+              "shell_command": "/usr/bin/open -a '/Applications/Google Chrome.app' 'https://ap-northeast-2.console.aws.amazon.com/elasticbeanstalk/home'"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_5"
+          },
+          "to": [
+            {
+              "shell_command": "/usr/bin/open -a '/Applications/Google Chrome.app' 'https://ap-northeast-2.console.aws.amazon.com/cloudwatch/home'"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_6"
+          },
+          "to": [
+            {
+              "shell_command": "/usr/bin/open -a '/Applications/Google Chrome.app' 'https://ap-northeast-2.console.aws.amazon.com/s3/home'"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_7"
+          },
+          "to": [
+            {
+              "shell_command": "/usr/bin/open -a '/Applications/Google Chrome.app' 'https://ap-northeast-2.console.aws.amazon.com/cloudformation/home'"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_8"
+          },
+          "to": [
+            {
+              "shell_command": "/usr/bin/open -a '/Applications/Google Chrome.app' 'https://us-east-1.console.aws.amazon.com/route53/v2/home'"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "keypad_9"
+          },
+          "to": [
+            {
+              "shell_command": "/usr/bin/open -a '/Applications/Google Chrome.app' 'https://ap-northeast-2.console.aws.amazon.com/ec2/home'"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
